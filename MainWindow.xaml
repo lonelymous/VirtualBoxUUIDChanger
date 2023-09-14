@@ -1,0 +1,22 @@
+﻿<Window x:Class="VirtualBoxUUIDChanger.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VirtualBoxUUIDChanger"
+        mc:Ignorable="d"
+        Title="VirtualBox VDI UUID Changer" Height="450" Width="800" MinHeight="300" MinWidth="300">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <ListView x:Name="vdiList" Margin="20" MouseDoubleClick="vdiList_MouseDoubleClick" Grid.ColumnSpan="2"/>
+        <Button x:Name="FileExplorer" Width="100" Height="40" Click="FileExplorer_Click" Grid.Column="0" Grid.Row="1" Content="VDI kiválasztása"/>
+        <Button x:Name="UUIDChanger" Width="100" Height="40" Click="UUIDChanger_Click" Grid.Column="1" Grid.Row="1" Content="UUID lecserélése"/>
+    </Grid>
+</Window>
