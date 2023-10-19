@@ -7,4 +7,9 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+	<ItemGroup>
+		<Folder Include="Assets\" />
+		<Resource Include="Assets/vbuc.ico" />
+	</ItemGroup>
+
 </Project>

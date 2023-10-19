@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VirtualBoxUUIDChanger"
         mc:Ignorable="d"
-        Title="VirtualBox VDI UUID Changer" Height="450" Width="800" MinHeight="300" MinWidth="300">
+        Title="VirtualBox VDI UUID Changer" Height="450" Width="800" MinHeight="300" MinWidth="300" Icon="/Assets/vbuc.ico">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
